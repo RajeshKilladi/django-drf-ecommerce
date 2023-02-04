@@ -36,11 +36,3 @@ pytest -h                                                       ==> help routine
 pip install pytest-django                                       ==> to install pytest django 
 
 
-
-
-
-
-
-
-
-
