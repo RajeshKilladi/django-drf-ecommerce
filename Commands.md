@@ -1,20 +1,14 @@
 packages used : 
 
-asgiref==3.6.0
-attrs==22.2.0
-colorama==0.4.6
-Django==4.1.6
-djangorestframework==3.14.0
-exceptiongroup==1.1.0
-iniconfig==2.0.0
-packaging==23.0
-pluggy==1.0.0
-pytest==7.2.1
-python-dotenv==0.21.1
-pytz==2022.7.1
-sqlparse==0.4.3
-tomli==2.0.1
-tzdata==2022.7
+django
+python-dotenv 
+djangorestframework
+pytest
+pytest-django
+django-mptt
+drf-spectacular
+coverage
+pytest-coverage
 
 
 Commands used : 
@@ -34,5 +28,9 @@ pip install djangorestframework                                 ==> To install d
 pip install pytest                                              ==> to install pytest 
 pytest -h                                                       ==> help routine
 pip install pytest-django                                       ==> to install pytest django 
-
-
+python .\manage.py startapp drfecommerce\product                ==> start a new inside the folder drfecommerce\product 
+python .\manage.py makemigrations                               ==> To create migrations for the the newly created models into the django 
+python .\manage.py migrate                                      ==> To do the migrations for the data models created
+python .\manage.py createsuperuser                              ==> This command is to create a superuser in the django
+pip install drf-spectacular                                     ==> To install DRF spectacular
+pip install coverage                                            ==> to install coverage package
